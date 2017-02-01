@@ -146,3 +146,7 @@ Modern apple Computers with Solid State Drives (SSD) or Flash Storage do not use
 * [Daniel Shiffman GitHub] (https://github.com/shiffman/Sudden-Motion-Sensor-Processing)
 * [Lincoln Ramsay Unimotion SourceForge] (https://sourceforge.net/projects/unimotion/)
 
+# License
+
+* GNU General Public License version 2.0 (GPLv2)
+* GNU Library or Lesser General Public License version 2.0 (LGPLv2)

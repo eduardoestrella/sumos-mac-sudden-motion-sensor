@@ -25,7 +25,7 @@ To use in a Java Class you have to load the JNI interface
 And define a Native Function ``readSMS()``
 
 ````
-    private static native int[] readSMS();
+private static native int[] readSMS();
 ````
 
 After that you can use the library calling ``readSMS()`` native function whenever you need.
@@ -54,7 +54,9 @@ I will explain how to compile in Command Line, CLion and Eclipse to solve the li
 
 I create a bash file in ``script`` project folder, it is ``build.sh`` named or you can use directly:
 
-````gcc -I/System/Library/Frameworks/JavaVM.framework/Headers  -I /System/Library/Frameworks/IOKit.framework/IOKit -framework IOKit -I /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation  -framework CoreFoundation unimotion.c````
+````
+gcc -I/System/Library/Frameworks/JavaVM.framework/Headers  -I /System/Library/Frameworks/IOKit.framework/IOKit -framework IOKit -I /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation  -framework CoreFoundation unimotion.c
+````
 
 ####For CLion
 
